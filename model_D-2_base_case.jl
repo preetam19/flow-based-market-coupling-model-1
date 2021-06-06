@@ -96,7 +96,7 @@ for horizon in 1:ceil(Int, length(T)/hours_per_horizon)
 	println("Built constraints line_cap_neg for CNECs.")
 
 	for t in Tsub
-		JuMP.fix(DELTA[t,68], 0)
+		JuMP.fix(DELTA[t,20], 0)
 	end
 	println("Built constraints FIX SLACK NODE.")
 
