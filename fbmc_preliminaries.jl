@@ -1,5 +1,5 @@
 MWBase = 380^2
-slack_node = 68
+slack_node = 20
 slack_position = findfirst(N .== slack_node)
 
 # Build nodal PTDFs
